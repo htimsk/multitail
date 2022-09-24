@@ -155,12 +155,25 @@ This is a set of instructions on how to confiuge multitail to view the Rocket Po
     sudo chmod +x logs.sh
     ```
 
+1. Enable the metrics in MEV-boost by adding the following line in the TUI by running `rocketpool service config` and navigate to MEV-boost / Additional Flags and add the following:
+
+    ```
+    -debug      
+    ```
+
+1. Enable the metrics in Consensus Client (ETH2) by adding the following line in the TUI by running `rocketpool service config` and navigate to Consensus Client (ETH2) / Additional Flags and add the following:
+
+    ```
+    --validator-monitor-auto     
+    ```
+
+1. Save and exit the TUI. Answer yes to restart the affected docker containers. 
+
 1. Run the logs.
 
     ```
     ./logs.sh
     ```
-
 
 
 
