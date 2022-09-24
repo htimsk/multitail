@@ -169,12 +169,20 @@ This is a set of instructions on how to confiuge multitail to view the Rocket Po
 
 1. Save and exit the TUI. Answer yes to restart the affected docker containers. 
 
+## Use instructions
+
 1. Run the logs.
 
     ```
     ./logs.sh
     ```
 
+Press `b` to view the logs in detail. 
+00 Mev-Boost
+01 ETH1 
+02 ETH2
+
+Press `q` to exit or go back. 
 
 
 
