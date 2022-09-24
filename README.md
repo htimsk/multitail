@@ -1,6 +1,6 @@
 # multitail
 This is a set of instructions on how to confiuge multitail to view the Rocket Pool logs in a clear and color-highlighted version. 
-![](img/securScreenshot_multitail.jpg)
+![](img/Screenshot_multitail.jpg)
 <br>
 
 ## Installation instructions
