@@ -13,7 +13,7 @@ This is a set of instructions on how to confiuge multitail to view the Rocket Po
 
 1. Create a color scheme for the logs. Note this currently supports Nimbus and Besu. I invite others to add to this for the other clients
     ```
-    sudo nano multitail.conf
+    sudo nano logs.sh
     ```
 
 
