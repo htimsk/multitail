@@ -13,11 +13,11 @@ This is a set of instructions on how to confiuge multitail to view the Rocket Po
 
 1. Create a color scheme for the logs. Note this currently supports Nimbus and Besu. I invite others to add to this for the other clients
     ```
-    sudo nano mutltitail.conf
+    sudo nano multitail.conf
     ```
 
 
-1. Copy and paste the following script into `mutltitail.conf`. Press Ctrl-X to save and exit:
+1. Copy and paste the following script into `multitail.conf`. Press Ctrl-X to save and exit:
 
     ```
     titlebar:Rocket Pool Service Logs
